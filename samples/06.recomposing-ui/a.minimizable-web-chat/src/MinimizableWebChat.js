@@ -15,7 +15,8 @@ const MinimizableWebChat = () => {
           dispatch({
             type: 'WEB_CHAT/SEND_EVENT',
             payload: {
-              name: 'webchat/join',
+              // name: 'webchat/join',
+              name: 'useractivity/invalidlogin',
               value: {
                 language: window.navigator.language
               }
